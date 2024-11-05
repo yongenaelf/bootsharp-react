@@ -1,0 +1,14 @@
+.vs
+.idea
+node_modules
+coverage
+cache
+dist
+bin
+obj
+
+*.suo
+*.user
+*.nupkg
+package-lock.json
+bun.lockb
