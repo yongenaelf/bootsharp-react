@@ -30,7 +30,8 @@
         "cover": "vitest run --coverage",
         "dev": "vite",
         "build": "vite build",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "postbuild": "cp _headers ./dist/"
     },
     "eslintConfig": {
         "extends": [
